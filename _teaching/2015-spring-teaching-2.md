@@ -1,20 +1,16 @@
 ---
-title: "Teaching experience 2"
+title: "Teaching Assistant"
 collection: teaching
-type: "Workshop"
-permalink: /teaching/2015-spring-teaching-1
-venue: "University 1, Department"
-date: 2015-01-01
-location: "City, Country"
+type: "Undergraduate course"
+permalink: /teaching/2014-spring-teaching-1
+venue: "Department of Mathematics, UG"
+date: 2020-09 - 2021-08
+location: "Accra, Ghana"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
-
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
+<!-- Teaching Assistant
+<div>
+<p> Development   of Comprehensive Learning Materials using Office 365 and LaTeX </p>
+<p> Assistance   in Exam Invigilation and Grading </p>
+<p> Leading   tailored Tutorial Sessions to address Students’ Unique Needs in understanding   Mathematical Concepts</p>
+</div> -->

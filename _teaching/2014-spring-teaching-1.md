@@ -8,8 +8,8 @@ date: 2020-03 - 2020-07
 location: "Accra, Ghana"
 ---
 
-<div>
+<!-- <div>
 <p> One-on-One tuition for test-takers </p>
 <p> Achieved   a 100% success rate where students had failed a couple of times in the past </p>
 <p> Utilized   Montessori-based tutoring to simplify Calculus I for students</p>
-</div>
+</div> -->
