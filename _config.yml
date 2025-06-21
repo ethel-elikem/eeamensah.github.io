@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Ethel Mensah / Homepage"
+title                    : "Ethel Mensah"
 title_separator          : "-"
 name                     : &name "Ethel Elikem Mensah"
 description              : &description "Early Career Researcher"
