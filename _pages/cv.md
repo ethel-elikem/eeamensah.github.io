@@ -11,35 +11,33 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Computer Science, University of Saarland, 2023 - to present
+* Master in Mathematical Sciences (Data Science),African Institute for Mathematical Sciences (AIMS), 2021 -  2022
+* Bachelor in Economics and Mathematics, Univeristy of Ghana, 2016 - 2020
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Interdisciplinary Institute for Societal Computing ​
+  * Scientific Researcher​
+  * Work with Location Based Online Services, such Google Maps for analysis of social phenomena​
+  * Collaborate with social scientists and data engineers to explore ethical questions in platform-based urban data​
+  * Collaborations with relevant Stakeholders in various Sectors to produce Transformative Research
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Ishango.ai ​
+  * Data Scientist​
+  * Analyzed Sensor Data​
+  * Gained Insights into creating Anomaly Detection Models using AWS Tools and Python Libraries
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Department of Mathematics, UG ​
+  * Teaching Assistant​
+  * Development of Comprehensive Learning Materials using Office 365 and LaTeX​
+  * Assistance in Exam Invigilation and Grading​
+  * Leading tailored Tutorial Sessions to address Students’ Unique Needs in understanding Mathematical Concepts
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Data skills: Extraction, Mining, Analysis and Processing ​
+* GeoSpatial: QGIS​
 
 Publications
 ======
