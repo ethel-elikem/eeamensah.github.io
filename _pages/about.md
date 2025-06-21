@@ -6,9 +6,9 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Hello I am Ethel Afi Mensah, a second year PhD student. ........
-
-I am biking, hiking .....
+I am a doctoral researcher at the Interdisciplinary Institute for Societal Computing at Saarland University. My research lies at the intersection of computational social science, urban studies, and digital platforms. I study how user-generated data such as Google Maps reviews can reveal patterns of spatial inequality, migration, and social dynamics in cities. With a background in Economics, Mathematics, and Mathematical Sciences, I bring a multidisciplinary lens to questions of fairness, visibility, and inclusion in digital and urban spaces.
+ 
+When I am not being geeky I love to sing, travel and explore new adventures
 
 <!-- This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
 
