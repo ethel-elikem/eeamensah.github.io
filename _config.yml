@@ -24,12 +24,12 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Ethel Elikem"
-  pronouns         : # example: "she/her"  
+  pronouns         : "she/her"  
   bio              : "Interested in using user generate data from location based online services to stude social phenomena such as segregation, migration and inequality"
   location         : "Saarbrücken, Germany"
   employer         : "Saarland University"
   uri              : # URL
-  email            : "mensah@cs.uni-saarland.de" 
+  email            : "mensah@cs.uni-saarland.de"
 
   # Academic websites
   #academia         : # URL
