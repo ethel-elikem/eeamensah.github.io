@@ -1,20 +1,15 @@
 ---
-title: "Teaching experience 1"
+title: "Part-time Mathematics Tutor"
 collection: teaching
-type: "Undergraduate course"
+type: "West Africa Secondary School Certificate Examination   (WASSCE) and International General Certificate of Secondary Education   (IGCSE)"
 permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
+venue: "Ghana"
+date: 2020-03 - 2020-07
+location: "Accra, Ghana"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
-
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
+<div>
+<p> One-on-One tuition for test-takers </p>
+<p> Achieved   a 100% success rate where students had failed a couple of times in the past </p>
+<p> Utilized   Montessori-based tutoring to simplify Calculus I for students</p>
+</div>
