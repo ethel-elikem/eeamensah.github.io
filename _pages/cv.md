@@ -27,36 +27,8 @@ Work experience
   * Data Scientist​
   * Analyzed Sensor Data​
   * Gained Insights into creating Anomaly Detection Models using AWS Tools and Python Libraries
-
-* Department of Mathematics, UG ​
-  * Teaching Assistant​
-  * Development of Comprehensive Learning Materials using Office 365 and LaTeX​
-  * Assistance in Exam Invigilation and Grading​
-  * Leading tailored Tutorial Sessions to address Students’ Unique Needs in understanding Mathematical Concepts
   
 Skills
 ======
 * Data skills: Extraction, Mining, Analysis and Processing ​
 * GeoSpatial: QGIS​
-
-<!-- Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams -->

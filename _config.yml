@@ -9,13 +9,13 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Ethel Mensah"
+title                    : "Ethel E. Mensah"
 title_separator          : "-"
 name                     : &name "Ethel Elikem Mensah"
-description              : &description "Early Career Researcher"
-url                      : "https://ethel-elikem.github.io/eeamensah.github.io/" # the base hostname & protocol for your site e.g. "https://ethel-elikem.github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io" #"academicpages/academicpages.github.io"
+description              : &description "Doctoral researcher in computational social science, urban data, and digital platforms."
+url                      : "https://ethel-elikem.github.io"
+baseurl                  : "/eeamensah.github.io"
+repository               : "ethel-elikem/eeamensah.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -23,9 +23,9 @@ repository               : "academicpages/academicpages.github.io" #"academicpag
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Ethel Elikem"
+  name             : "Ethel Elikem Mensah"
   pronouns         : "she/her"  
-  bio              : "Interested in using user generate data from location based online services to stude social phenomena such as segregation, migration and inequality"
+  bio              : "Doctoral researcher studying how platform data can reveal spatial inequality, migration, and social dynamics in cities."
   location         : "Saarbrücken, Germany"
   employer         : "Saarland University"
   uri              : # URL
@@ -46,7 +46,7 @@ author:
   #bitbucket        : # Username - Update with your username on the site
   #codepen          : # Username
   #dribbble         : # Username
-  github           : "https://github.com/ethel-elikem"
+  github           : "ethel-elikem"
   #kaggle           : # Username  
   #stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -60,7 +60,7 @@ author:
   #keybase          : # Username
   #instagram        : # Username
   #lastfm           : # Username
-  linkedin         : "www.linkedin.com/in/ethel-elikem-mensah"
+  linkedin         : "ethel-elikem-mensah"
   #mastodon         : # URL
   #medium           : # URL
   #pinterest        : # Username
@@ -80,10 +80,8 @@ author:
 publication_category:
   #books:
     #title: 'Books'
-  #manuscripts:
-    #title: 'Journal Articles'    
   conferences:
-    title: 'Conference Papers'
+    title: 'Peer-reviewed Publications'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -215,18 +213,12 @@ kramdown:
 
 # These settings control the types of collections used by the template
 collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
   # portfolio:
   #   output: false
   #   permalink: /:collection/:path/
-  talks:
-    output: true
-    permalink: /:collection/:path/
 
 
 # These settings control how pages and collections are included in the site
@@ -249,15 +241,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
   # _publications
   - scope:
       path: ""
@@ -276,15 +259,6 @@ defaults:
   #     author_profile: true
   #     share: true
   #     comment: true
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
-
 
 # Sass/SCSS
 sass:
