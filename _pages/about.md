@@ -14,6 +14,7 @@ redirect_from:
     <p class="home-hero__lead">I am a doctoral researcher at the Interdisciplinary Institute for Societal Computing at Saarland University. My work uses user-generated location data, including Google Maps reviews, to examine spatial inequality, migration, visibility, and social dynamics in cities.</p>
     <div class="home-actions">
       <a class="btn btn--primary" href="{{ '/publications/' | relative_url }}">Publications</a>
+      <a class="btn btn--inverse" href="{{ '/writing/' | relative_url }}">Writing</a>
       <a class="btn btn--inverse" href="{{ '/cv/' | relative_url }}">CV</a>
       <a class="btn btn--light-outline" href="mailto:mensah@cs.uni-saarland.de">Contact</a>
     </div>
