@@ -5,32 +5,52 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<section class="interior-hero interior-hero--teal">
+  <p class="eyebrow">Research output</p>
+  <h1>Publications</h1>
+  <p>Peer-reviewed work on computational social science, platform data, and urban inequality.</p>
+</section>
+
+<section class="metric-strip" aria-label="Publication summary">
+  <div>
+    <span>Published paper</span>
+    <strong>1</strong>
+  </div>
+  <div>
+    <span>Venue</span>
+    <strong>ICWSM</strong>
+  </div>
+  <div>
+    <span>Research area</span>
+    <strong>Urban platform data</strong>
+  </div>
+</section>
 
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
+<section class="content-panel">
+  <div class="section-heading">
+    <p class="eyebrow">Selected work</p>
+    <h2>Peer-reviewed Publications</h2>
+  </div>
+
+  <div class="publication-list">
   {% for post in site.publications reversed %}
-    {% include archive-single.html %}
+    <article class="publication-card">
+      <p class="publication-card__meta">{{ post.date | date: "%Y" }} · {{ post.venue }}</p>
+      <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+      {% if post.excerpt %}
+        <p>{{ post.excerpt }}</p>
+      {% endif %}
+      <div class="publication-card__actions">
+        <a class="btn btn--primary" href="{{ post.url | relative_url }}">Details</a>
+        {% if post.paperurl %}<a class="btn btn--light-outline" href="{{ post.paperurl }}">DOI</a>{% endif %}
+      </div>
+    </article>
   {% endfor %}
+  </div>
+</section>
+
+{% if site.author.googlescholar %}
+<p class="quiet-link">You can also find my articles on <a href="{{ site.author.googlescholar }}">Google Scholar</a>.</p>
 {% endif %}
-
-
-

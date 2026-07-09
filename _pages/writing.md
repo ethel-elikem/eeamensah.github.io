@@ -5,7 +5,26 @@ permalink: /writing/
 author_profile: true
 ---
 
-Selected writing and reflections published through the Interdisciplinary Institute for Societal Computing.
+<section class="interior-hero interior-hero--coral">
+  <p class="eyebrow">Essays and reflections</p>
+  <h1>Writing</h1>
+  <p>Selected writing and reflections published through the Interdisciplinary Institute for Societal Computing.</p>
+</section>
+
+<section class="metric-strip" aria-label="Writing summary">
+  <div>
+    <span>Selected posts</span>
+    <strong>5</strong>
+  </div>
+  <div>
+    <span>Published through</span>
+    <strong>I2SC</strong>
+  </div>
+  <div>
+    <span>Focus</span>
+    <strong>Society, data, research life</strong>
+  </div>
+</section>
 
 <div class="writing-list">
   <article>
@@ -30,4 +49,4 @@ Selected writing and reflections published through the Interdisciplinary Institu
   </article>
 </div>
 
-More updates are available on the <a href="https://updates.i2sc.net/">I2SC blog</a>.
+<p class="quiet-link">More updates are available on the <a href="https://updates.i2sc.net/">I2SC blog</a>.</p>

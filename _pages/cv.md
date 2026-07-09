@@ -7,28 +7,74 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+<section class="interior-hero interior-hero--gold">
+  <p class="eyebrow">Experience and training</p>
+  <h1>CV</h1>
+  <p>A concise overview of my academic training, research experience, data work, and technical skills.</p>
+</section>
 
-Education
-======
-* Ph.D in Computer Science, University of Saarland, 2023 - to present
-* Master in Mathematical Sciences (Data Science),African Institute for Mathematical Sciences (AIMS), 2021 -  2022
-* Bachelor in Economics and Mathematics, Univeristy of Ghana, 2016 - 2020
+<section class="cv-timeline">
+  <div class="section-heading">
+    <p class="eyebrow">Education</p>
+    <h2>Academic Training</h2>
+  </div>
 
-Work experience
-======
-* Interdisciplinary Institute for Societal Computing ​
-  * Scientific Researcher​
-  * Work with Location Based Online Services, such Google Maps for analysis of social phenomena​
-  * Collaborate with social scientists and data engineers to explore ethical questions in platform-based urban data​
-  * Collaborations with relevant Stakeholders in various Sectors to produce Transformative Research
+  <article>
+    <span>2023-present</span>
+    <h3>Ph.D. in Computer Science</h3>
+    <p>Saarland University</p>
+  </article>
+  <article>
+    <span>2021-2022</span>
+    <h3>Master in Mathematical Sciences, Data Science</h3>
+    <p>African Institute for Mathematical Sciences (AIMS)</p>
+  </article>
+  <article>
+    <span>2016-2020</span>
+    <h3>Bachelor in Economics and Mathematics</h3>
+    <p>University of Ghana</p>
+  </article>
+</section>
 
-* Ishango.ai ​
-  * Data Scientist​
-  * Analyzed Sensor Data​
-  * Gained Insights into creating Anomaly Detection Models using AWS Tools and Python Libraries
-  
-Skills
-======
-* Data skills: Extraction, Mining, Analysis and Processing ​
-* GeoSpatial: QGIS​
+<section class="cv-timeline">
+  <div class="section-heading">
+    <p class="eyebrow">Experience</p>
+    <h2>Research and Data Work</h2>
+  </div>
+
+  <article>
+    <span>Current</span>
+    <h3>Scientific Researcher</h3>
+    <p>Interdisciplinary Institute for Societal Computing</p>
+    <ul>
+      <li>Work with location-based online services, including Google Maps, to analyze social phenomena.</li>
+      <li>Collaborate with social scientists and data engineers on ethical questions in platform-based urban data.</li>
+      <li>Contribute to stakeholder-facing research on inequality, migration, and digital visibility.</li>
+    </ul>
+  </article>
+  <article>
+    <span>Previous</span>
+    <h3>Data Scientist</h3>
+    <p>Ishango.ai</p>
+    <ul>
+      <li>Analyzed sensor data and developed insights for anomaly detection workflows.</li>
+      <li>Worked with AWS tools and Python libraries for data science tasks.</li>
+    </ul>
+  </article>
+</section>
+
+<section class="skill-cloud">
+  <div class="section-heading">
+    <p class="eyebrow">Skills</p>
+    <h2>Methods and Tools</h2>
+  </div>
+  <div>
+    <span>Data extraction</span>
+    <span>Data mining</span>
+    <span>Data analysis</span>
+    <span>Data processing</span>
+    <span>Geospatial workflows</span>
+    <span>QGIS</span>
+    <span>Python</span>
+  </div>
+</section>
