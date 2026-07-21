@@ -1,8 +1,7 @@
 ---
 permalink: /
 title: "About Me"
-author_profile: false
-full_width: true
+author_profile: true
 redirect_from:
   - /about/
   - /about.html
@@ -10,7 +9,7 @@ redirect_from:
 <section class="home-hero">
   <div class="home-hero__copy">
     <p class="eyebrow">Computational social science | Urban data | Digital platforms</p>
-    <h1>Ethel Elikem Mensah studies how platform data reflects urban life.</h1>
+    <h1>Researching platform data and urban inequality.</h1>
     <p class="home-hero__lead">I am a doctoral researcher at the Interdisciplinary Institute for Societal Computing at Saarland University. My work uses user-generated location data, including Google Maps reviews, to examine spatial inequality, migration, visibility, and social dynamics in cities.</p>
     <div class="home-actions">
       <a class="btn btn--primary" href="{{ '/publications/' | relative_url }}">Publications</a>
@@ -18,9 +17,6 @@ redirect_from:
       <a class="btn btn--inverse" href="{{ '/cv/' | relative_url }}">CV</a>
       <a class="btn btn--light-outline" href="mailto:mensah@cs.uni-saarland.de">Contact</a>
     </div>
-  </div>
-  <div class="home-hero__portrait">
-    <img src="{{ '/images/profile.png' | relative_url }}" alt="Portrait of Ethel Elikem Mensah">
   </div>
 </section>
 
@@ -36,23 +32,6 @@ redirect_from:
   <div>
     <span>Methods</span>
     <strong>Data mining, analysis, geospatial workflows</strong>
-  </div>
-</section>
-
-<section class="urban-system" aria-label="Urban data research map">
-  <div class="urban-system__copy">
-    <p class="eyebrow">Data / Place / Society</p>
-    <h2>Reading cities through digital traces</h2>
-    <p>My work connects platform activity to social questions: who is visible, which places receive attention, and where urban participation appears uneven.</p>
-  </div>
-  <div class="urban-system__map" aria-hidden="true">
-    <span class="map-point map-point--one"></span>
-    <span class="map-point map-point--two"></span>
-    <span class="map-point map-point--three"></span>
-    <span class="map-point map-point--four"></span>
-    <span class="map-line map-line--one"></span>
-    <span class="map-line map-line--two"></span>
-    <span class="map-line map-line--three"></span>
   </div>
 </section>
 
