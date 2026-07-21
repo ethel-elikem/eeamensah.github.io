@@ -39,19 +39,39 @@ redirect_from:
   </div>
 </section>
 
+<section class="urban-system" aria-label="Urban data research map">
+  <div class="urban-system__copy">
+    <p class="eyebrow">Data / Place / Society</p>
+    <h2>Reading cities through digital traces</h2>
+    <p>My work connects platform activity to social questions: who is visible, which places receive attention, and where urban participation appears uneven.</p>
+  </div>
+  <div class="urban-system__map" aria-hidden="true">
+    <span class="map-point map-point--one"></span>
+    <span class="map-point map-point--two"></span>
+    <span class="map-point map-point--three"></span>
+    <span class="map-point map-point--four"></span>
+    <span class="map-line map-line--one"></span>
+    <span class="map-line map-line--two"></span>
+    <span class="map-line map-line--three"></span>
+  </div>
+</section>
+
 <section id="research" class="home-section">
   <p class="eyebrow">Research focus</p>
   <h2>Questions I work on</h2>
   <div class="research-grid">
     <article>
+      <span class="research-index">01</span>
       <h3>Spatial inequality</h3>
       <p>Using location-based online services to understand how opportunity, attention, and urban experience are unevenly distributed.</p>
     </article>
     <article>
+      <span class="research-index">02</span>
       <h3>Migration and belonging</h3>
       <p>Investigating how digital traces can surface patterns of movement, settlement, and social connection across places.</p>
     </article>
     <article>
+      <span class="research-index">03</span>
       <h3>Fairness in platform data</h3>
       <p>Studying what user-generated data makes visible, what it hides, and how researchers can use it responsibly.</p>
     </article>

@@ -13,6 +13,13 @@ redirect_from:
   <p>A concise overview of my academic training, research experience, data work, and technical skills.</p>
 </section>
 
+<section class="method-band" aria-label="CV focus areas">
+  <span>Computational social science</span>
+  <span>Urban data</span>
+  <span>Geospatial analysis</span>
+  <span>Platform data ethics</span>
+</section>
+
 <section class="cv-timeline">
   <div class="section-heading">
     <p class="eyebrow">Education</p>

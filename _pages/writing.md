@@ -26,6 +26,13 @@ author_profile: true
   </div>
 </section>
 
+<section class="method-band" aria-label="Writing themes">
+  <span>Research reflections</span>
+  <span>Societal systems</span>
+  <span>Urban life</span>
+  <span>Digital culture</span>
+</section>
+
 <div class="writing-list">
   <article>
     <p class="writing-list__date">March 17, 2026</p>
