@@ -16,17 +16,46 @@
   --soft-surface: #f6efe5;
   --warm-surface: #fffaf1;
   --paper: #fffdf8;
+  --site-bg: #fbf6ee;
+  --masthead-bg: rgba(255, 250, 241, 0.96);
+  --outline-bg: rgba(255, 253, 248, 0.82);
+  --outline-border: rgba(74, 47, 33, 0.2);
+  --masthead-border: rgba(74, 47, 33, 0.08);
+  --avatar-shadow: rgba(74, 47, 33, 0.13);
   --line: rgba(74, 47, 33, 0.14);
+}
+
+html[data-theme="dark"] {
+  --global-link-color: #d4a170;
+  --global-link-color-hover: #f0c59c;
+  --global-link-color-visited: #bfae9d;
+  --global-masthead-link-color: #ead9c5;
+  --accent-teal: #d4a170;
+  --accent-coral: #d08b6c;
+  --accent-gold: #c7b474;
+  --accent-sage: #a8b58b;
+  --ink: #f3eadf;
+  --muted-ink: #c8b8a8;
+  --soft-surface: #332820;
+  --warm-surface: #2b211b;
+  --paper: #261d18;
+  --site-bg: #1d1713;
+  --masthead-bg: rgba(29, 23, 19, 0.96);
+  --outline-bg: rgba(38, 29, 24, 0.86);
+  --outline-border: rgba(212, 161, 112, 0.32);
+  --masthead-border: rgba(212, 161, 112, 0.16);
+  --avatar-shadow: rgba(0, 0, 0, 0.38);
+  --line: rgba(234, 217, 197, 0.14);
 }
 
 body {
   color: var(--ink);
-  background: #fbf6ee;
+  background: var(--site-bg);
 }
 
 .masthead {
-  border-bottom: 1px solid rgba(74, 47, 33, 0.08);
-  background: rgba(255, 250, 241, 0.96);
+  border-bottom: 1px solid var(--masthead-border);
+  background: var(--masthead-bg);
   backdrop-filter: blur(10px);
 }
 
@@ -93,8 +122,8 @@ body {
 .page__content .btn--light-outline,
 .archive .btn--light-outline {
   color: var(--ink);
-  border: 1px solid rgba(74, 47, 33, 0.2);
-  background: rgba(255, 253, 248, 0.82);
+  border: 1px solid var(--outline-border);
+  background: var(--outline-bg);
 }
 
 .page__content .home-hero {
@@ -289,11 +318,11 @@ body {
 }
 
 .interior-hero h1 {
-  max-width: 12ch;
+  max-width: 18ch;
   margin: 0 0 0.75rem;
   color: var(--ink);
-  font-size: clamp(2rem, 4vw, 3.2rem);
-  line-height: 1;
+  font-size: clamp(1.55rem, 2.7vw, 2.25rem);
+  line-height: 1.08;
   letter-spacing: 0;
 }
 
@@ -402,7 +431,7 @@ body {
 .author__avatar img {
   max-width: 240px;
   border-radius: 8px;
-  box-shadow: 0 12px 28px rgba(74, 47, 33, 0.13);
+  box-shadow: 0 12px 28px var(--avatar-shadow);
 }
 
 @media (min-width: 64em) {
