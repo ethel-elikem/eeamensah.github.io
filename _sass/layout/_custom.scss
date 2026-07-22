@@ -3,27 +3,30 @@
    ========================================================================== */
 
 :root {
-  --global-link-color: #1d6f78;
-  --global-link-color-hover: #10464d;
-  --global-link-color-visited: #5a6472;
-  --global-masthead-link-color: #24313a;
-  --accent-teal: #1d6f78;
-  --accent-coral: #b95743;
-  --accent-gold: #a67c16;
-  --ink: #1d252c;
-  --muted-ink: #5f6b75;
-  --soft-surface: #f6f8f7;
-  --warm-surface: #fbf6ef;
-  --line: rgba(29, 37, 44, 0.11);
+  --global-link-color: #7a4b2a;
+  --global-link-color-hover: #4a2f21;
+  --global-link-color-visited: #74695f;
+  --global-masthead-link-color: #4a372d;
+  --accent-teal: #7a4b2a;
+  --accent-coral: #a65f3f;
+  --accent-gold: #8a7a45;
+  --accent-sage: #6f7f61;
+  --ink: #2c241f;
+  --muted-ink: #6f6258;
+  --soft-surface: #f6efe5;
+  --warm-surface: #fffaf1;
+  --paper: #fffdf8;
+  --line: rgba(74, 47, 33, 0.14);
 }
 
 body {
   color: var(--ink);
-  background: #fff;
+  background: #fbf6ee;
 }
 
 .masthead {
-  background: rgba(255, 255, 255, 0.96);
+  border-bottom: 1px solid rgba(74, 47, 33, 0.08);
+  background: rgba(255, 250, 241, 0.96);
   backdrop-filter: blur(10px);
 }
 
@@ -90,8 +93,8 @@ body {
 .page__content .btn--light-outline,
 .archive .btn--light-outline {
   color: var(--ink);
-  border: 1px solid rgba(29, 37, 44, 0.18);
-  background: rgba(255, 255, 255, 0.82);
+  border: 1px solid rgba(74, 47, 33, 0.2);
+  background: rgba(255, 253, 248, 0.82);
 }
 
 .page__content .home-hero {
@@ -200,7 +203,7 @@ body {
 .writing-list article {
   border: 1px solid var(--line);
   border-radius: 8px;
-  background: #fff;
+  background: var(--paper);
 }
 
 .research-grid article,
@@ -214,7 +217,7 @@ body {
 }
 
 .research-grid article:nth-child(3) {
-  border-top-color: var(--accent-gold);
+  border-top-color: var(--accent-sage);
 }
 
 .research-index {
@@ -282,7 +285,7 @@ body {
 }
 
 .interior-hero--gold::before {
-  background: var(--accent-gold);
+  background: var(--accent-sage);
 }
 
 .interior-hero h1 {
@@ -319,7 +322,7 @@ body {
   align-items: center;
   min-height: 2.25rem;
   padding: 0.42rem 0.7rem;
-  border: 1px solid rgba(29, 37, 44, 0.13);
+  border: 1px solid rgba(74, 47, 33, 0.14);
   border-radius: 999px;
   background: var(--soft-surface);
   color: var(--ink);
@@ -399,7 +402,7 @@ body {
 .author__avatar img {
   max-width: 240px;
   border-radius: 8px;
-  box-shadow: 0 12px 28px rgba(29, 37, 44, 0.1);
+  box-shadow: 0 12px 28px rgba(74, 47, 33, 0.13);
 }
 
 @media (min-width: 64em) {
