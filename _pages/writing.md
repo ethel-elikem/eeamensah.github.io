@@ -6,8 +6,8 @@ author_profile: true
 ---
 
 <section class="interior-hero interior-hero--coral">
+  <h1 class="screen-reader-text">Writing</h1>
   <p class="eyebrow">Essays and reflections</p>
-  <h1>Writing</h1>
   <p>Selected writing and reflections published through the Interdisciplinary Institute for Societal Computing.</p>
 </section>
 

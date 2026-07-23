@@ -8,8 +8,8 @@ redirect_from:
 ---
 
 <section class="interior-hero interior-hero--gold">
+  <h1 class="screen-reader-text">CV</h1>
   <p class="eyebrow">Experience and training</p>
-  <h1>CV</h1>
   <p>A concise overview of my academic training, research experience, data work, and technical skills.</p>
 </section>
 

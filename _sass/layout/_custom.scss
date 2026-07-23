@@ -76,10 +76,22 @@ body {
 
 .greedy-nav a {
   color: var(--global-masthead-link-color);
+  font-size: 0.95rem;
 }
 
 .greedy-nav .visible-links a::before {
   background: var(--accent-teal);
+}
+
+.greedy-nav .masthead__menu-item--active a {
+  color: var(--accent-teal);
+  font-weight: 800;
+}
+
+.greedy-nav .masthead__menu-item--active a::before {
+  -webkit-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  transform: scaleX(1);
 }
 
 #main {
@@ -213,8 +225,8 @@ body {
   max-width: 14em;
   margin: 0;
   color: var(--ink);
-  font-size: clamp(1.45rem, 3vw, 2.2rem);
-  line-height: 1.1;
+  font-size: clamp(1.25rem, 2vw, 1.65rem);
+  line-height: 1.18;
   border: 0;
 }
 
@@ -296,7 +308,7 @@ body {
 
 .interior-hero {
   margin-bottom: 1.25rem;
-  padding: 1.5rem 0 1.25rem;
+  padding: 1rem 0 1.25rem;
   border-bottom: 1px solid var(--line);
 }
 
@@ -330,7 +342,7 @@ body {
   max-width: 42rem;
   margin-bottom: 0;
   color: var(--muted-ink);
-  font-size: 1.03rem;
+  font-size: 0.98rem;
   line-height: 1.65;
 }
 
