@@ -9,7 +9,6 @@ redirect_from:
 <section class="home-hero">
   <div class="home-hero__copy">
     <p class="eyebrow">Computational social science | Urban data | Digital platforms</p>
-    <h1>Researching platform data and urban inequality.</h1>
     <p class="home-hero__lead">I am a doctoral researcher at the Interdisciplinary Institute for Societal Computing at Saarland University. My work uses user-generated location data, including Google Maps reviews, to examine spatial inequality, migration, visibility, and social dynamics in cities.</p>
     <div class="home-actions">
       <a class="btn btn--primary" href="{{ '/publications/' | relative_url }}">Publications</a>
